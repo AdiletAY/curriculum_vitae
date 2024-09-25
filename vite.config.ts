@@ -10,7 +10,4 @@ export default defineConfig({
     },
   },
   base: "/curriculum_vitae/",
-  build:{
-    outDir: "build"
-  }
 })
