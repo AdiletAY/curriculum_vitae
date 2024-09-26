@@ -1,9 +1,10 @@
-import ProfileCard from "@/components/ProfileCard";
-import ObjectiveCard from "@/components/ObjectiveCard";
-import { objectiveData } from "@/data/objective";
-import WorkExperienceCard from "@/components/WorkExperienceCard";
-import SkillCard from "@/components/SkillCard";
-import { skills } from "@/data/skills";
+import SkillCard from "@/components/SkillCard.tsx";
+import ProfileCard from "@/components/ProfileCard.tsx";
+import ObjectiveCard from "@/components/ObjectiveCard.tsx";
+import WorkExperienceCard from "@/components/WorkExperienceCard.tsx";
+
+import { objectiveData } from "@/data/objective.ts";
+import { skills } from "@/data/skills.ts";
 
 const HomePage = () => {
     return (

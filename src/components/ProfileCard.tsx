@@ -1,9 +1,10 @@
 import { FC } from "react";
-import ContactButtons from "./ContactButtons";
-import {Button} from "@/components/ui/button.tsx";
 import { DownloadIcon } from "@radix-ui/react-icons";
+
+import ContactButtons from "./ContactButtons.tsx";
+import {Button} from "@/components/ui/button.tsx";
 import {Avatar, AvatarFallback, AvatarImage} from "@/components/ui/avatar.tsx";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card.ts";
 
 
 interface ProfileCardProps {

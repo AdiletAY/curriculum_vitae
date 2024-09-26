@@ -1,6 +1,7 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import TimeLine from "./TimeLine";
-import { workExperience } from "@/data/workExperience";
+import TimeLine from "./TimeLine.tsx";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.tsx";
+
+import { workExperience } from "@/data/workExperience.ts";
 
 const WorkExperienceCard = () => {
   return (

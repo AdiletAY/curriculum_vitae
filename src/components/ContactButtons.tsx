@@ -1,6 +1,7 @@
-import { Button } from "@/components/ui/button.tsx";
-import { useToast } from "@/hooks/use-toast"
 import { Mail, Phone, Linkedin } from 'lucide-react';
+
+import { Button } from "@/components/ui/button.tsx";
+import { useToast } from "@/hooks/use-toast.ts"
 
 const ContactButtons = () => {
   const { toast } = useToast()
