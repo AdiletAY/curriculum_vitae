@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.ts";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.tsx";
 
 interface ObjectiveCardProps {
   title: string;
