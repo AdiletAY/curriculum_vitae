@@ -1,1 +1,1 @@
-export const skills = ["JavaScript", "React", "TypeScript", "CSS"];
+export const skills = ["JavaScript", "React", "TypeScript", "CSS", "Lazing around all day"];
